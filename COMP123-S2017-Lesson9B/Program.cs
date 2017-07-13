@@ -21,7 +21,27 @@ namespace COMP123_S2017_Lesson9B
             superHero.AddPower("Spider Climbing", 50);
             superHero.AddPower("Webcasting", 40);
             Console.WriteLine(superHero.ToString());
+            Console.WriteLine("Karma: " + superHero.Karma);
 
+
+            Console.WriteLine("\n\n\n");
+
+            SuperVillain superVilian1 = new SuperVillain("Jonghyun", 100);
+            superVilian1.AddPower("Fire ball", 10);
+            superVilian1.AddPower("Guided arrow", 30);
+            superVilian1.AddPower("Blizzard", 30);
+            SuperVillain superVilian2 = new SuperVillain("Wayne", 90);
+            superVilian2.AddPower("Call Meteo", 50);
+            superVilian2.AddPower("Vanishing", 0);
+            superVilian2.AddPower("Electric bolt", 30);
+
+            Console.WriteLine(superVilian1.ToString());
+            Console.WriteLine("Malice: " + superVilian1.Malice);
+
+            Console.WriteLine("\n\n\n");
+
+            Console.WriteLine(superVilian2.ToString());
+            Console.WriteLine("Malice: " + superVilian2.Malice);
 
         }
     }
