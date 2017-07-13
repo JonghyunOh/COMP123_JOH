@@ -27,13 +27,13 @@ namespace COMP123_S2017_Lesson9B
             Console.WriteLine("\n\n\n");
 
             SuperVillain superVilian1 = new SuperVillain("Jonghyun", 100);
-            superVilian1.AddPower("Fire ball", 10);
+            superVilian1.AddPower("Fire ball", 70);
             superVilian1.AddPower("Guided arrow", 30);
-            superVilian1.AddPower("Blizzard", 30);
+            superVilian1.AddPower("Blizzard", 35);
             SuperVillain superVilian2 = new SuperVillain("Wayne", 90);
             superVilian2.AddPower("Call Meteo", 50);
-            superVilian2.AddPower("Vanishing", 0);
-            superVilian2.AddPower("Electric bolt", 30);
+            superVilian2.AddPower("Vanishing", 10);
+            superVilian2.AddPower("Electric bolt", 20);
 
             Console.WriteLine(superVilian1.ToString());
             Console.WriteLine("Malice: " + superVilian1.Malice);
